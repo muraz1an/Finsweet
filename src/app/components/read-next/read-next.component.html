@@ -1,0 +1,8 @@
+<div class="d-flex s-betw">
+    <div class="readnext_bl" *ngFor="let item of readblockList">
+        <img class="d-in-bl" src="{{item.img}}" alt="">
+        <p class="autor">by <span>{{item.autor}}</span>{{item.date}}</p>
+        <h3>{{item.title}}</h3>
+        <p>{{item.descrip}}</p>
+    </div>
+</div>

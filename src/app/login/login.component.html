@@ -1,0 +1,22 @@
+<div class="login-page p-relative">
+    <div class="container text-center">
+        <h1>Log in</h1>
+        <form [formGroup]="form" (ngSubmit)="logIn()">
+            <label for="email"> Email </label>
+            <input formControlName="email" id="email" type="email">
+            <label for="password">Password</label>  
+            <input formControlName="password" id="password" type="text">
+            <button [disabled]="form.invalid" class="read_more pointer">Sign In</button>
+        </form>
+    </div>
+    <div class="logo p-absolute pointer">
+        <img routerLink="/home" src="../../assets/Logo.png" alt="logo">
+    </div>
+    <div  class="fav_categ p-absolute ">
+            <h4>Our Favorite Category</h4>
+           <div routerLink="/categories" class="categ d-flex align-c pointer" *ngFor="let elem of category">
+                <img src="{{elem.icon}}" alt="img">
+                <h5>{{elem.title}}</h5>
+           </div>
+    </div>
+</div>

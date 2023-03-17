@@ -1,0 +1,41 @@
+.categ {
+    width: 296px;
+    border: 1px solid var(--borders);
+    padding: 32px;
+    transition-duration: 700ms;
+    margin-bottom: 24px;
+}
+.categ_logo {
+    background-color: var(--bg-light);
+    width: 48px;
+    padding: 12px;
+    height: 48px;
+    border-radius: 10px;
+}
+.categ_icon {
+    width: 24px;
+}
+.categ h4{
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+font-family: Sen;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+.categ:hover {
+    border-color:var(--transparent);
+    background-color: var(--yel-bg);
+}
+h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,23 @@
+.readnext_bl {
+    width: 405px;
+}
+.readnext_bl img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+.readnext_bl h3 {
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+margin: 16px 0;
+}
+.readnext_bl p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: var(--main-bg-color);
+}

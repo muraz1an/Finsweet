@@ -1,0 +1,12 @@
+.wh_toRead h2{
+    margin-top: 128px;
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+}
+.wh_toRead div {
+    padding: 64px 0;
+    border-bottom: 1px solid var(--transparent);
+}

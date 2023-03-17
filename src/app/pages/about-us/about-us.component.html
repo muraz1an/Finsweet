@@ -1,0 +1,121 @@
+<div>
+    <app-header></app-header>
+</div>
+<header>
+    <div class="container">
+        <div class="title_block p-relative d-flex align-c s-betw">
+            <div class="about_us_title">
+                <h4>ABOUT US</h4>
+                <h1>We are a team of content writers who share their learnings</h1>
+            </div>
+            <div class="aboutUs_descrip">
+                <p>
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <div class="our_statistics p-relative">
+            <img src="assets/bg233.png" alt="">
+            <div class="p-absolute statist_bl">
+                <div class="statistics d-flex s-betw ">
+                    <div>
+                        <h4>12+</h4>
+                        <p>Blogs Published</p>
+                    </div>
+                    <div>
+                        <h4>18K+</h4>
+                        <p>Views on Finsweet</p>
+                    </div>
+                    <div>
+                        <h4>30K+</h4>
+                        <p>Total active Users</p>
+                    </div>
+                </div>
+                <div class="d-flex decorations">
+                    <div class="dec1"></div>
+                    <div class="dec2"></div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</header>
+<section>
+    <div class="container our_miss d-flex s-betw ">
+        <div class="miss_items">
+            <h5>Our mision</h5>
+            <h3>Creating valuable content for creatives all around the world</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. 
+                 At risus viverra adipiscing at in tellus.
+            </p>
+        </div>
+        <div class="miss_items">
+            <h5>Our Vision</h5>
+            <h3>A platform that empowers individuals to improve</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. 
+                 At risus viverra adipiscing at in tellus.
+            </p>
+        </div>
+        
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="to_read d-flex s-betw align-c">
+            <div class="description">
+                <h2>Our team of creatives</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+                </p>
+            </div>
+            <div class="img">
+                <img src="assets/imggggg.png" alt="img">
+            </div>
+        </div>
+        <div class="to_read read2 d-flex s-betw align-c">
+            <div class="img">
+                <img src="assets/Image.png" alt="img">
+            </div>
+            <div class="description">
+                <h2>Our team of creatives</h2>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="autor_list">
+            <h2>List of Authors</h2>
+            <div>
+                <app-autors [autorsList]="autorlist" [scoialList]="socials"></app-autors>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <app-join-us></app-join-us>
+    <app-footer></app-footer>
+</footer>

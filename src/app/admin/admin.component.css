@@ -1,0 +1,67 @@
+.admin {
+background-color: var(--main-bg-color);
+height: 100vh;
+}
+.routing {
+    width: 85%;
+}
+.logoutBtn {
+    background: none;
+    border: none;
+    outline: none;
+    top: 17px;
+    right: 15px;
+    transition-duration: 400ms;
+}.logoutBtn:hover{transform: translateX(-5px);}
+.logoutBtn img{
+    width: 24px;
+    height: 24px;
+}
+.admin_title a > img{
+    transition-duration: 400ms;
+    margin-left: 30px;
+
+}
+.admin_title a > img:hover{
+    transform: scale(1.1);
+}
+.admin_title {
+    padding-top: 32px;
+    margin: 0 40px;
+}
+.admin_title h2 {
+    margin-top: 64px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 48px;
+    color: white;
+    padding-bottom: 6px;
+    border-bottom: 1px solid white;
+}
+.admin_navbar {
+    margin-top: 24px;
+}
+.admin_navbar li{
+    padding: 28px 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    transition-duration: 550ms;
+}
+.admin_navbar li:hover {
+    color: var(--yel-bg);
+}
+.active {
+    color: black !important;
+    background-color: var(--yel-bg);
+    transform: translateX(40px)
+
+}

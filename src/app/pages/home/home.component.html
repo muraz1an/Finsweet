@@ -1,0 +1,156 @@
+<header>
+    <app-header></app-header>
+</header>
+<header>
+    <header class="h-bg">
+        <div class="container">
+            <div class="header_elem">
+            <h4>Posted on <b>startup</b></h4>
+            <h1>Step-by-step guide to choosing great font pairs</h1>
+            <p>By <span>James West</span>  |  May 23, 2022 </p>
+            <p>
+                Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident.
+            </p>
+            <button class="read_more pointer" routerLink="/blog-post">Read More ></button>
+            </div>
+ 
+        </div>
+    </header>
+
+</header>
+<section class="futuredPost">
+    <div class="container">
+        <div class="wh_new d-flex s-betw">
+            <app-futured [element]="allPost"></app-futured>
+            <div class="all_posts">
+                <h2>All Posts</h2>
+                <a class="d-block" routerLink="/blog">View All</a>
+                <div class="posts_bl">
+                    <div>
+                        <app-posts-small [elements]="posts"></app-posts-small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container designLines">
+    <div class="design_line text-right">
+        <div class="line1 d-in-bl"></div>
+        <div class="line2 d-in-bl"></div>
+    </div>
+</div>
+<section class="aboutUS">
+    <div class="container ab_bl d-flex s-betw">
+        <div class="about_us_bl">
+            <h4>ABOUT US</h4>
+            <h2>We are a community of content writers who share their learnings</h2>
+            <p>
+                Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor
+                 incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a class="d-in-bl" routerLink="/about-us">Read More ></a>
+        </div>
+        <div class="our_miss_bl">
+            <h4>Our mision</h4>
+            <h3>Creating valuable content for creatives all around the world</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                 adipiscing elit, sed do eiusmod tempor incididunt 
+                 ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </div>
+   
+</section>
+<section class="CategoriesBlock">
+    <div class="container">
+         <div class="category_bl">
+            <h2 class="text-center">Choose A Catagory</h2>
+            <div class="categories">
+                <app-categories [categoria] = "categories"></app-categories>
+            </div>
+         </div>  
+    </div>
+
+</section>
+<section class="WhyWeStarted">
+    <div class="container p-relative">
+        <div class="we-img">
+            <img src="assets/close-up-photography-of-man-wearing-sunglasses-1212984.png" alt="we">
+        </div>
+        <div class="we-started p-absolute">
+            <h4>Why we started </h4>
+            <h2>It started out as a simple idea and evolved into our passion</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+            </p>
+            <button routerLink="/about-us" type="button" class="read_more pointer">Discover our story ></button>
+        </div>
+    </div>
+    
+</section>
+<section class="Autors">
+    <div class="container">
+        <div class="autors_bl">
+            <h2 class="text-center">List of Authors</h2>
+            <div class="autors">
+                <app-autors [autorsList]="autorlist" [scoialList]="socials"></app-autors>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="OurPartners">
+    <div class="container">
+        <div class="logo_comp d-flex s-betw">
+            <a href="#"><img src="assets/Featuredin.png" alt="logos"></a>
+            <a href="#"><img src="assets/Logo1.png" alt="logos"></a>
+            <a href="#"><img src="assets/Logo2.png" alt="logos"></a>
+            <a href="#"><img src="assets/Logo3.png" alt="logos"></a>
+            <a href="#"><img src="assets/Logo4.png" alt="logos"></a>
+            <a href="#"><img src="assets/Logo5.png" alt="logos"></a>
+        </div>
+    </div>
+</section>
+<section class="OurBlog">
+    <div class="container">
+        <div class="opinion_block d-flex s-betw">
+            <div class="op_title">
+                <h4>TESTIMONIALS</h4>
+                <h3>What people say about our blog</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="opinion_descrip">
+                <p><b>
+                    Lorem ipsum dolor sit amet,
+                     consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua.
+                </b></p>
+                <div class="whos_opinion d-flex">
+                    <div class="autor d-flex align-c">
+                        <img src="assets/Profile picture.png" alt="img">
+                        <div>
+                            <h4>Jonathan Vallem</h4>
+                            <p>New york, USA</p>
+                        </div>
+                    </div>
+                    <div class="op_change_btns d-flex align-c">
+                        <button type="button" class="prew_btn pointer"><img src="assets/Backbutton.png" alt="btns"></button>
+                        <button type="button" class="next_btn pointer"><img src="assets/NextButton.png" alt="btns"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <app-join-us></app-join-us>
+    <app-footer></app-footer>
+</footer>

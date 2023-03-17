@@ -1,0 +1,9 @@
+<h2>Categories</h2>
+<div class="d-flex f-column">
+    <div class="categ d-flex align-c" *ngFor="let item of categs" routerLink="/categories">
+        <div class="categ_logo">
+            <img src="{{item.icon}}" alt="img" class="categ_icon">
+        </div>
+        <h4>{{item.title}}</h4>
+    </div>
+</div>

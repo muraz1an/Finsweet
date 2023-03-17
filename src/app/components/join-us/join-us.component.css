@@ -1,0 +1,28 @@
+.join_us {
+    width: 448px;
+    margin-top: 128px;
+}
+.join_us h2 {
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+}
+.join_us p {
+    margin-top: 20px;
+    margin-bottom: 32px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+.join_us button {
+    margin-bottom: 128px;
+}
+@media screen and (max-width:640px) {
+    .join_us {
+        width: 100%;
+    }
+}

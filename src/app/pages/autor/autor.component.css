@@ -1,0 +1,48 @@
+.header_descrip h1 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+.header_descrip p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: var(--descriptions);
+}
+.header_descrip {
+    width: 741px;
+}
+.autor_header {
+    background-color: var(--bg-light);
+}
+.autor_blocks{
+    padding-top: 128px;
+}
+.header_descrip a {
+    margin-top: 24px;
+    margin-right: 16px;
+}
+.decorations div{
+    margin-top: 104px;
+    height: 23px;
+}
+.dec1 {
+    background-color: var(--yel-bg);
+    width: 80%;
+}
+.dec2 {
+    background-color: var(--design-blue);
+    width: 20%;
+}
+.myPostsTitle {
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+margin: 128px 0 64px;
+}

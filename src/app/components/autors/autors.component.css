@@ -1,0 +1,41 @@
+.autor {
+    background-color: var(--autor);
+    padding: 40px;
+    width: 296px;
+    transition-duration: 700ms;
+    margin-bottom: 32px;
+}
+.social_bl {
+    line-height: 10px;
+}
+.autor h2 {
+margin-top: 20px;
+font-family: Sen;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -1px;
+}
+.autor p {
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 20px;
+}
+.autor a {
+    margin-right: 16px;
+}
+.autor a:last-child {
+    margin-right: 0;
+}
+.autor:hover {
+    background-color: var(--bg-light)
+}
+@media screen and (max-width:1040px) {
+    .autors {
+        justify-content: space-around;
+    }
+}

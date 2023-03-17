@@ -1,0 +1,33 @@
+<header>
+    <app-header></app-header>
+</header>
+<header class="autor_header">
+    <div class="container_mid autor_blocks d-flex s-betw">
+        <div>
+            <img src="assets/andrew.png" alt="autor">
+        </div>
+        <div class="header_descrip">
+            <h1>Hey there, I’m Andrew Jonhson and welcome to my Blog</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                 Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. 
+                 At risus viverra adipiscing at in tellus.
+            </p>
+            <a class="d-in-bl" *ngFor="let social of socials" href="{{social.href}}"><img src="{{social.src}}" alt="{{social.alt}}"></a>
+        </div>
+    </div>  
+    <div class="container_mid d-flex decorations">
+        <div class="dec1"></div>
+        <div class="dec2"></div>
+    </div>
+</header>
+<section>
+    <div class="container_mid">
+        <h2 class="myPostsTitle">My Posts</h2>
+        <app-categ-posts [categs]="post"></app-categ-posts>
+    </div>
+</section>
+<footer>
+    <app-footer></app-footer>
+</footer>

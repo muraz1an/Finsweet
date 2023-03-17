@@ -1,0 +1,10 @@
+<div class="autors d-flex s-betw f-wrap">
+    <div class="autor text-center pointer" *ngFor="let item of autorsList">
+        <img src="{{item.img}}" alt="autor" class="d-block m-auto">
+        <h2>{{item.name}}</h2>
+        <p>{{item.proffesion}}</p>
+        <div class="socials social_bl">
+            <a *ngFor="let social of scoialList" href="{{social.href}}"><img src="{{social.src}}" alt="{{social.alt}}"></a>
+        </div>
+    </div>
+</div>

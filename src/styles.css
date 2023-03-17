@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+@import "assets/inter/stylesheet.css";
+@import "assets/Sen/stylesheet.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light:#FBF6EA;
+    --main-bg-lighter: #2d3047;
+    --main-bg-color: #232536;
+    --yel-bg: #FFD050;
+    --yel-bg-hov: #c09c3a;
+    --bg-light: #F4F0F8;
+    --design-blue: #592EA9;
+    --descriptions:#80808096;
+    --transparent: rgba(255, 255, 255, 0);
+    --borders:#6d6e7633;
+    --footer:#ffffff14;
+    --tit-blue:#592EA9;
+    --autor:#F4F4F4;
+}
+a {
+    text-decoration: none;
+}
+.s-betw {
+    justify-content: space-between;
+}
+.align-c {
+    align-items: center;
+}
+.d-block {
+    display: block;
+}
+.d-in-bl {
+    display: inline-block;
+}
+.d-flex {
+    display: flex;
+}
+.f-column{
+    flex-direction: column;
+}
+.mat-mdc-table {
+    background: none !important;
+}
+.s-around{
+    justify-content: space-around;
+}
+.container {
+    width: 1282px;
+    margin: auto;
+}
+.container_mid {
+    width: 1024px;
+    margin: auto;
+}
+.container_sm {
+    width: 850px;
+    margin: auto;
+}
+.pointer {
+    cursor: pointer
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.autor {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.autor span {
+    color: #592EA9;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+.m-auto {
+    margin: auto;
+}
+.td_overflow{
+    overflow: auto !important;
+    white-space: nowrap;
+    max-width: 200px;
+    text-overflow: clip !important; 
+}
+.read_more {
+    margin-top: 32px;
+    border-radius: nullpx;
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding: 16px 48px;
+    background-color: var(--yel-bg);
+    border: none;
+    transition-duration: 500ms;
+}
+.read_more a {
+    color: black;
+}
+.read_more:hover {
+    background-color: var(--yel-bg-hov);
+}
+.bg-light {
+    background-color: var(--bg-light);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media screen and (max-width: 1320px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .container {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 840px) {
+    .container {
+        width: 600px;
+    }
+    .container_sm {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container {
+        width: 400px;
+    }
+    .container_sm {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .container {
+        width: 97%;
+    }
+    .container_sm {
+        width: 100%;
+    }
+}

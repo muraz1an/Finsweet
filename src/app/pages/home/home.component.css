@@ -1,0 +1,421 @@
+.h-bg {
+    background-image: url(../../../assets/homebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_elem h4{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: white;
+    padding-top: 128px;
+    margin-bottom: 24px;
+}
+.header_elem h4 b {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header_elem h1 {
+    font-family: Sen;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: white;
+    width: 810px;
+    margin-bottom: 24px;
+}
+.header_elem p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    max-width: 599px;
+    margin-bottom: 16px;
+}
+.header_elem p span {
+    color:  #ffd152;
+}
+.header_elem button {
+    margin-bottom: 192px;
+}
+.wh_new{
+    margin-top: 128px;
+}
+.all_posts {
+width: 517px;
+}
+.all_posts h2 {
+font-family: Sen;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+text-align: left;
+}
+.all_posts a {
+    padding-bottom: 3px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: right;
+color: #592EA9;
+}
+
+.design_line div, .design_line{
+    height: 23px;
+}
+.line1 {
+    width: 60%;
+    background-color: var(--yel-bg);
+}
+.line2 {
+    width: 20%;
+    background-color: var(--design-blue);
+
+}
+.ab_bl {
+    background-color: var(--bg-light);
+    padding: 97px 80px 95px;
+}
+.ab_bl h4 {
+margin-bottom: 24px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 3px;
+text-align: left;
+text-transform: uppercase;
+}
+.about_us_bl h2{
+    font-family: Sen;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;   
+    width: 492px;
+}
+.ab_bl p {
+    margin-top: 16px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+width: 515px;
+}
+.ab_bl a {
+ margin-top: 16px;
+font-family: Sen;
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+.our_miss_bl h3{
+    font-family: Sen;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    width: 483px;
+}
+.category_bl h2 {
+font-family: Sen;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+margin-top: 128px;
+margin-bottom: 48px;
+}
+.categories {
+    margin-bottom: 128px;
+}
+.we-started {
+    background-color: white;
+    padding: 80px;
+    bottom: 0;
+    right: 0;
+}
+.we-started h4 {
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 3px;
+text-align: left;
+text-transform: uppercase;
+}
+.we-started h2 {
+    margin: 24px 0 16px;
+    width: 546px;
+font-family: Sen;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -2px;
+text-align: left;
+} 
+.we-started p {
+width: 546px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.autors_bl h2 {
+margin-top: 128px;
+font-family: Sen;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2px;
+margin-bottom: 48px;
+}
+.logo_comp {
+    align-items: flex-end;
+    margin: 96px 0;
+}
+.logo_comp a {
+    transition-duration: 500ms;
+}
+.logo_comp a:hover {
+    transform: scale(1.2);
+}
+.opinion_block {
+    padding: 80px 110px;
+    background-color: var(--bg-light)
+}
+.op_title h4 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.op_title h3 {
+    margin: 12px 0 16px;
+    font-family: Sen;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    width: 320px;
+    
+}
+.op_title p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 320px;
+}
+.op_title {
+    width: 429px;
+    border-right: 1px solid var(--descriptions);
+}
+.opinion_descrip > p{
+    width: 469px;
+    margin-bottom: 120px;
+}
+.opinion_descrip > p > b {
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.autor div {
+    margin-left: 12px;
+}
+.autor h4{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.autor p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: var(--descriptions);
+}
+.autor img {
+    width: 48px;
+    height: 48px;
+}
+.op_change_btns button {
+    background: none;
+    border: none;
+    transition-duration: 500ms;
+}
+.op_change_btns button:hover {
+    transform: scale(1.2);
+}
+.prew_btn {
+    margin-right: 24px;
+    margin-left: 140px;
+}
+@media screen and (max-width:1320px) {
+    .all_posts {
+        width: 360px;
+    }
+    .ab_bl p {
+        width: 100%;
+    }
+    .our_miss_bl h3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1040px) {
+    .header_elem h1 {
+        width: 720px;
+    }
+    .we-img img {
+        width: 100%;
+    }
+    .we-started {
+        padding: 40px;
+
+    }
+    .we-started h2 {
+        width: 500px;
+        font-size: 40px;
+    }
+    .we-started p {
+        width: 500px;
+    }
+    .logo_comp a{
+        width: 10%;
+    }
+    .logo_comp a>img {
+        width: 100%;
+    }
+    .about_us_bl h2 {
+        width: 330px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .ab_bl p {
+        width: 90%;
+        font-size: 14px;
+    }
+    .op_title{
+        width: 212px;
+        padding-right: 30px;
+    }
+    .op_title h3 {
+        width: 100%;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .op_title p {
+        width: 100%;
+        font-size: 14px;
+
+    }
+    .opinion_descrip p {
+        width: 100%;
+        text-align: right;
+    }
+    .opinion_descrip p >b {
+        font-size: 19px;
+    }
+    .autor h4 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .prew_btn {
+        margin-right: 12px;
+        margin-left: 24px;
+    }
+    .whos_opinion {
+        justify-content: flex-end;
+
+    }
+    .wh_new {
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 840px) {
+    .header_elem h1 {
+        width: 100%;
+    }
+    .wh_new{
+        flex-direction: column;
+    }
+    .all_posts {
+        width: 100%;
+    }
+    .ab_bl {
+        flex-direction: column;
+    }
+    .our_miss_bl {
+        padding-top: 15px;
+        border-top: 1px solid #0000004f;
+    }
+    .we-started {
+        position: relative;
+    }
+    .opinion_block {
+        flex-direction: column;
+    }
+    .op_title {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--descriptions);
+        padding-bottom: 15px;
+    }
+    .opinion_descrip p{
+        text-align: left;
+    }
+}
+@media screen and (max-width:640px) {
+    .we-started h2 {
+        width: 100%;
+    }
+    .we-started p {
+        width: 100%;
+    }
+    .opinion_block{
+        padding: 80px 40px;
+    }
+    .header_elem h1 {
+        font-size: 39px;
+    }
+    .h-bg {
+        background-position-x: -446px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .about_us_bl h2 {
+        width: 183px;
+    }
+    .h-bg {
+        background-position-x: -446px;
+    }
+}

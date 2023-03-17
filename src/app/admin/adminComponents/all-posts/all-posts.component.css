@@ -1,0 +1,129 @@
+.containertable{
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+.img {
+    max-width: 140px;
+    height: 50px;
+    overflow: auto;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+.img img{
+    padding-top: 4px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.autorComponentBlock {
+    padding-top: 30px;
+    /* padding-left: 128px; */
+    background-color: var(--main-bg-lighter);
+    height: 100vh;
+    width: 100%;
+}
+.btns button{
+    outline: none;
+    border-radius: nullpx;
+    font-family: Sen;
+    font-size: 18px;
+    background-color: var(--yel-bg);
+    border: none;
+    transition-duration: 500ms;
+    padding: 8px 24px;
+    margin: 8px 5px;
+}
+.btns button:hover{
+    background-color: var(--yel-bg-hov);
+}
+.add_btn {
+    justify-content: flex-end
+}
+th {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition-duration: 400ms;
+}
+td {
+    text-align: center;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    transition-duration: 400ms;
+}
+td:hover , th:hover {
+    background-color: var(--main-bg-color);
+}
+.pagination {
+    justify-content: center;
+}
+.pagination a {
+    margin: 20px 10px 15px;
+color: white;
+font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+transition-duration: 500ms;
+}
+.prew:hover{transform: translateX(-15px);}.next:hover {transform: translateX(15px);}
+.forms{
+    position: absolute;
+    top: 0;
+    width: 100%;
+   background-color: var(--main-bg-color);
+}
+.forms label {
+    color: white;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    line-height: 22px;
+}
+.forms input {
+    display: block;
+    width: 70%;
+    margin: 12px auto 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 8px;
+}
+.forms .sbm {
+    display: block;
+    margin: 33px auto 40px;
+}
+.closeWind {
+    border-radius: nullpx;
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding:3px 8px;
+    right: 13px;
+    top: -15;
+    background-color: var(--yel-bg);
+    border: none;
+    transition-duration: 500ms;
+}
+.td_overflow {
+    max-width: 100px;
+    font-size: 10px;
+}

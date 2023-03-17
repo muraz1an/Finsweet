@@ -1,0 +1,95 @@
+<div class="autorComponentBlock d-block">
+    <div class="containertable">
+      <div class="add_btn d-flex">
+        <button (click)="add()"  type="button" class="read_more pointer">ADD+</button>
+      </div>
+      <table  mat-table [dataSource]="allposts" class="mat-elevation-z8 autorslist">
+  
+        <ng-container matColumnDef="title">
+          <th mat-header-cell *matHeaderCellDef> Title </th>
+          <td class="td_overflow" mat-cell *matCellDef="let element"> {{element.title}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="descrip">
+            <th mat-header-cell *matHeaderCellDef> Description </th>
+            <td class="td_overflow" mat-cell *matCellDef="let element"> {{element.descrip}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="type">
+          <th mat-header-cell *matHeaderCellDef> Type </th>
+          <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+        </ng-container>
+  
+        <ng-container matColumnDef="autor">
+          <th mat-header-cell *matHeaderCellDef> Autor </th>
+          <td mat-cell *matCellDef="let element"> {{element.autor}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="date">
+            <th mat-header-cell *matHeaderCellDef> Date </th>
+            <td mat-cell *matCellDef="let element"> {{element.autordate}} </td>
+          </ng-container>
+
+        <ng-container matColumnDef="img">
+            <th mat-header-cell *matHeaderCellDef> Image </th>
+            <td mat-cell *matCellDef="let element" class="img"><img src="{{element.img}}" alt=""></td>
+        </ng-container>
+
+        <ng-container matColumnDef="Action">
+          <th mat-header-cell *matHeaderCellDef> Action </th>
+          <td mat-cell *matCellDef="let element" class="btns d-flex s-around f-column">
+            <button  (click)="edit(element)" type="button" class="editBtn pointer d-flex align-c d-in-bl"><img src="assets/icons8-edit-row-25.png"
+                alt=""> Edit</button>
+            <button  (click)="deleteItem(element.id)" type="button" class="DeleteBtn pointer d-flex align-c d-in-bl"><img src="assets/icons8-remove-24.png" alt="">Delete</button>
+          </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+      <div class="pagination d-flex">
+        <a class="prew pointer" (click)="prewPage()">&lt; Prev</a>
+        <a class="next pointer" (click)="nextPage()">Next &gt;</a>
+      </div>
+  
+  
+  
+      <div *ngIf="forms" class="form_group forms text-center"  >
+        <form [formGroup]="form" (ngSubmit)="putDatas()">
+          <div class="p-relative">
+            <button (click)="this.forms = !this.forms" type="button" class="p-absolute pointer closeWind  text-right">x</button>
+          </div>
+          <label for="Image">
+            Image
+             <input formControlName="img" id="icon"  type="text">
+          </label>
+
+          <label for="type">
+            Type
+             <input formControlName="type" id="type" type="text">
+          </label>
+
+          <label for="title">
+            Title
+             <input formControlName="title" id="title" type="text">
+          </label>
+      
+          <label for="descrip">
+            Description
+              <input formControlName="descrip" id="descrip"  type="text">
+          </label>
+          <label for="autor">
+            Autor
+              <input formControlName="autor" id="autor"  type="text">
+          </label>
+          <label for="date">
+            Date
+              <input formControlName="date" id="date"  type="text">
+          </label>
+          <button [disabled]="form.invalid" class="sbm read_more pointer">{{btnText}}</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+  
+

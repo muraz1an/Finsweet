@@ -1,0 +1,39 @@
+
+.all_posts_bl h2 {
+    margin-top: 60px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--descriptions);
+    margin-bottom: 64px;
+}
+.categ_bl h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 67px 0 48px;
+}
+.pagination .prew{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: var(--descriptions);
+transition-duration: 400ms;
+}.prew:hover{transform: translateX(-15px);}
+.pagination .next{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+color: black;
+margin-left: 17px;
+transition-duration: 400ms;
+}.next:hover {transform: translateX(15px);}

@@ -1,0 +1,12 @@
+<div class="f_post" *ngFor="let item of element">
+    <h2>Featured Post</h2>
+    <div class="wh_new_bl">
+         <img src="{{item.img}}" alt="image">
+         <h4 class="autor">By <span>{{item.autor}}</span>{{item.autordate}}</h4>
+         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+         <p>
+           {{item.descrip}}
+         </p>
+        <button routerLink="/blog-post" class="read_more pointer">Read More ></button>
+    </div>
+</div>

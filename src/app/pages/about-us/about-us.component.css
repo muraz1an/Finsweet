@@ -1,0 +1,274 @@
+.about_us_title {
+    width: 624px;
+    background-color: white;
+    padding: 64px;
+    margin-top: 80px;
+    margin-left: 109px;
+}
+
+.title_block {
+    top: 64px;
+}
+
+.about_us_title h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.about_us_title h1 {
+    margin-top: 16px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.aboutUs_descrip p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28apx;
+    width: 477px;
+}
+
+.our_statistics {
+    height: 444px;
+    z-index: -1;
+}
+
+.statistics {
+    width: 630px;
+    background-color: var(--yel-bg);
+    padding: 32px 48px;
+}
+
+.statist_bl {
+    top: 265px;
+    left: 109px;
+}
+
+.statistics div h4 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.statistics div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.dec1 {
+    width: 312px;
+    height: 23px;
+    background-color: var(--design-blue);
+}
+
+.dec2 {
+    width: 550px;
+    height: 23px;
+    background-color: var(--yel-bg);
+}
+
+.our_miss {
+    padding: 125px 108px 64px;
+    background-color: var(--bg-light);
+}
+
+.our_miss div>h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.our_miss div>h3 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 24px 0 16px;
+}
+
+.our_miss div>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--descriptions);
+}
+
+.miss_items {
+    width: 516px;
+}
+
+.to_read {
+    margin-top: 128px;
+}
+
+.description {
+    width: 519px;
+}
+
+.to_read>div>h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.to_read>div>h4 {
+    margin: 16px 0;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.to_read>div>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.autor_list h2 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 91px 0 48px;
+}
+
+@media screen and (max-width:1320px) {
+    .our_statistics img {
+        width: 100%;
+    }
+
+    .aboutUs_descrip p {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .about_us_title {
+        margin-top: 24px;
+        margin-left: 75px;
+    }
+
+    .statist_bl {
+        top: 191px;
+        left: 0;
+    }
+
+    .our_statistics {
+        height: 369px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .about_us_title {
+        width: 370px;
+    }
+    .about_us_title h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .dec1 {
+        width: 251px;
+    }
+    .statist_bl {
+        top: 121px;
+    }
+    .our_statistics {
+        height: 300px;
+    }
+    .our_miss {
+        padding: 125px 15px 64px;
+    }
+    .miss_items {
+        width: 360px;
+    }
+    .to_read {
+        flex-direction: column-reverse;
+    }
+    .read2 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 840px){
+    .aboutUs_descrip p {
+        display: none;
+    }
+    .dec1 {
+        width: 30%;
+    }
+    .dec2 {
+        width: 70%;
+    }
+    .statistics {
+        width: 600px;
+
+    }
+    .img img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px){
+    .about_us_title{
+        width: 240px;
+        padding: 36px;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    .about_us_title h1{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .our_statistics{
+        height: 100%;
+    }
+    .statist_bl{
+        position: relative;
+        top: 0;
+
+    }
+    .statistics{
+        width: 100%;
+    }
+    .statistics div h4 {
+        font-size: 36px;
+    }
+    .miss_items{
+        width: 170px;
+    }
+    .our_miss div h3 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .our_miss div p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+}

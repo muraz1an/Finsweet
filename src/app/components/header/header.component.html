@@ -1,0 +1,37 @@
+<header>
+    
+    <div class="header_block">
+        <div class="container">
+            <div class="d-flex s-betw align-c">
+                <div class="logo">
+                    <a routerLink="/home" class="d-in-bl"> 
+                        <img src="assets/Logo.png" alt="">
+                    </a>
+                </div>
+                <nav>
+                    <div class="navbar">
+                        <ul class="d-in-bl navs">
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/home" routerLinkActive="active">Home</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/blog" routerLinkActive="active">Blog</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/about-us" routerLinkActive="active">About Us</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/contact_us" routerLinkActive="active">Contact Us</a></li>
+                            <li class="d-in-bl"><button type="button" class="sbsc-btn">Subscribe</button></li>
+                        </ul> 
+                    </div>
+                </nav>
+                <nav class="dropdown_nav">
+                    <button #btn (click)="openMenu(btn, menu)" class="drop_btn pointer"><img src="assets/menu.png" alt=""></button>
+                    <div #menu class="drop_menu">
+                        <ul class="d-in-bl drop_navs">
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/home" routerLinkActive="active">Home</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/blog" routerLinkActive="active">Blog</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/about-us" routerLinkActive="active">About Us</a></li>
+                            <li class="d-in-bl"><a class="d-in-bl" routerLink="/contact_us" routerLinkActive="active">Contact Us</a></li>
+                        </ul> 
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+  
+</header>

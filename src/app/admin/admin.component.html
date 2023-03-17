@@ -1,0 +1,25 @@
+<div class="d-flex">
+    <header class="admin">
+        <div>
+            <div class="admin_title">
+                <div class="d-flex s-betw">
+                    <button (click)="LogOut()" class="logoutBtn pointer p-absolute" type="button"><img src="assets/logout.png" alt="icon"></button>
+                    <a routerLink="/home"><img src="assets/Logo.png" alt="logo"></a>
+                </div>
+                <h2>Admin Page</h2>
+            </div>
+        <nav class="admin_navbar">
+            <ul>
+                <li class="pointer d-block" routerLink="/admin/autor" routerLinkActive="active">Autors</li>
+                <li class="pointer d-block" routerLink="/admin/categs" routerLinkActive="active">Categories</li>
+                <li class="pointer d-block" routerLink="/admin/allposts" routerLinkActive="active">All Posts</li>
+                <li class="pointer d-block" routerLink="/admin/myposts" routerLinkActive="active">My Posts</li>
+            </ul>
+        </nav> 
+        </div>
+        
+    </header>
+    <div class="routing">
+        <router-outlet></router-outlet>
+    </div>
+</div>

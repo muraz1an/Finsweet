@@ -1,0 +1,76 @@
+.autor_bl {
+    margin: 128px 0 64px;
+}
+.autor img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+.autor > div > h4{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #592EA9;
+}
+.autor > div > P {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: var(--descriptions);
+}
+.title h1 {
+font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+margin: 24px 0 34px;
+}
+.title > div > img {
+    width: 24px;height: 24px;
+}
+.title > div > h4 {
+    margin-left: 8px;
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+} 
+.description_bl h2 {
+    margin-top: 48px;
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 33px;
+line-height: 48px;
+}
+.description_bl p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--descriptions);
+    margin-top: 16px;
+}
+.description_bl ul {
+    margin-top: 24px;
+    padding-left: 17px;
+}
+.description_bl ul > li {
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+}
+.image {
+    width: 100%;
+    height: 582px;
+    object-fit: cover;
+}

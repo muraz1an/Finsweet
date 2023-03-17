@@ -1,0 +1,24 @@
+.post {
+    padding: 32px;
+    transition-duration: 500ms;
+    height: 181px;
+}
+.post h3 {
+margin-top: 8px;
+font-family: Sen;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+width: 350px;
+}
+.post:hover {
+    background-color: var(--light);
+}
+@media screen and (max-width:1320px) {
+    .post h3 {
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="d-flex s-betw align-c blog_header" *ngFor="let item of element" >
+        <div class="f-post-descrip">
+            <h4>Featured Post</h4>
+            <h2>{{item.title}}</h2>
+            <p class="autor">By <span>{{item.autor}}</span>{{item.autordate}}</p>
+            <p class="f_p_d">
+                {{item.descrip}}
+            </p>
+            <button routerLink="/blog-post" class="read_more">Read More ></button>
+        </div>
+        <div class="f-post-img">
+            <img src="{{item.img}}" alt="img">
+        </div>
+    </div>
+</div>
+
+
+
