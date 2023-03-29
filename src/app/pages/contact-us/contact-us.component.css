@@ -8,7 +8,16 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+input.ng-dirty.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+.form_bl span {
+    color: red;
+    font-size: 15px;
+    font-family: 'Sen';
+    letter-spacing: 2px
 
+}
 .contact_header h1 {
     margin: 12px 0 24px;
     font-family: 'Sen';
@@ -72,6 +81,7 @@ select,
 .masseges {
     margin: 16px 0;
     border: 1px solid var(--descriptions);
+    outline: none;
     border-radius: 2px;
     padding: 24px;
     width: 100%;

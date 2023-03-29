@@ -33,14 +33,21 @@
 </section>
 <section>
     <div class="container_sm form_bl">
-        <form >
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Full Name">
-            <Select>
+        <form [formGroup]="form" (ngSubmit)="Submit()">
+            <span *ngIf="form.get('name')?.hasError('required') && (form.get('name')?.dirty || form.get('name')?.touched)">*The name is required</span>
+            <span *ngIf="form.get('name')?.hasError('minlength') && (form.get('name')?.dirty || form.get('name')?.touched)">*username must contain at least 3 letters </span>
+            <input formControlName="name" type="text" placeholder="Full Name">
+            <span *ngIf="form.get('email')?.hasError('required') && (form.get('email')?.dirty || form.get('email')?.touched)">*The Email is required</span>
+            <span *ngIf="form.get('email')?.hasError('pattern') && (form.get('email')?.dirty || form.get('email')?.touched)">*please fill in the correct email </span>
+            <input formControlName="email" type="email" placeholder="Email">
+            <Select formControlName="query">
                 <option hidden selected>Query Related</option>
+                <option>Query Related</option>
+                <option>Query Related</option>
+                <option>Query Related</option>
             </Select>
-            <textarea class="masseges" rows="3" placeholder="Message"></textarea>
-            <button class="read_more text-center">Send Message</button>
+            <textarea formControlName="massege" class="masseges" rows="3" placeholder="Message"></textarea>
+            <button [disabled]="form.invalid" class="read_more text-center">Send Message</button>
         </form>
     </div>
 

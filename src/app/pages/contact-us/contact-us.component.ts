@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact-us',
@@ -13,10 +13,15 @@ export class ContactUsComponent implements OnInit {
   }
   ngOnInit(): void {
     this.form = this.fb.group({
-      name: [],
-      email: [],
-      query: [],
-      massege: []
+      name: ['', [Validators.required,Validators.minLength(3)]],
+      email: ['', [Validators.required,Validators.pattern(/^[0-9a-zA-Z\-_\.]{1,}@[a-zA-Z0-9]{1,}\.[a-zA-Z]{2,4}$/)]],
+      query: [''],
+      massege: ['']
     })
+  }
+
+  Submit(){
+    alert('Message has been sended successfully!')
+    this.form.reset();
   }
 }
