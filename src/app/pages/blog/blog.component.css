@@ -37,3 +37,18 @@ color: black;
 margin-left: 17px;
 transition-duration: 400ms;
 }.next:hover {transform: translateX(15px);}
+
+@media screen and (max-width:440px) {
+    .all_posts_bl h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .pagination .next {
+        font-size: 20px;
+    }.pagination .prew {font-size: 17px;}   
+
+    .categ_bl h2{
+        font-size: 23px;
+        line-height: 28px;
+    }
+}

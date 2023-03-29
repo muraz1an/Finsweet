@@ -272,3 +272,66 @@
         text-align: center;
     }
 }
+@media screen and (max-width:440px) {
+    .our_statistics img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .statist_bl {
+        top: -4px;
+    }
+    .statistics div p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+    .statistics div h4 {
+        font-size: 28px;
+        line-height: 25px;
+    }
+    .statistics {
+        padding: 20px 48px;
+    }
+    .our_miss {
+        padding: 30px 15px 45px;
+        flex-direction: column;
+
+    }
+    .our_miss div h5 {
+        font-size: 13px;
+    }
+    .miss_items {
+        width: 100%;
+    }
+    .our_miss div h3 {
+        font-size: 13px;
+        line-height: 13px;
+        margin: 12px 0 16px;
+    }
+    .our_miss div p {
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .miss_items {margin-top: 10px;}
+    .to_read {
+        margin-top: 55px;
+    }
+    .to_read div h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .to_read div h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .to_read div p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .autor_list h2 {
+        font-size: 23px;
+        line-height: 25px;
+        margin: 70px 0 35px;
+    }
+    
+}

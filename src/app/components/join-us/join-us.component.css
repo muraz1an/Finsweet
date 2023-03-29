@@ -26,3 +26,13 @@ line-height: 28px;
         width: 100%;
     }
 }
+@media screen and (max-width:440px) {
+    .join_us h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .join_us p {
+        font-size: 11px;
+        line-height: 18px;  
+    }
+}

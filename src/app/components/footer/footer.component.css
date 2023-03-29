@@ -89,7 +89,7 @@ color: var(--descriptions);
     }
     .navbar li {
         width: 50%;
-        text-align: center;
+        text-align: left;
     }
     .subscribe_bl h2 {
         font-size: 29px;
@@ -101,16 +101,50 @@ color: var(--descriptions);
     .address_links {margin-bottom: 20px;}
 }
 @media screen and (max-width: 440px) {
+    li a {
+        font-size: 11px;
+        line-height: normal;
+    }
     .read_more {
         padding: 16px 25px
     }
+    .subscribe_bl {
+        margin-top: 25px;
+        padding: 22px 25px;
+    }
     .subscribe_bl h2 {
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 18px;
+    }
+    #email {
+        margin-top: 10px;
+        margin-right: 0;
     }
     .subscribe_bl input {
         font-size: 10px;
         padding: 8px 15px;
     }
-    
+    .address_links a {
+        font-size: 10px;
+        line-height: 4px;
+    }
+    .address{
+        padding-bottom: 10px;
+        margin-top: 20px;
+        align-items: start;
+    }
+    .address_links {
+        margin-bottom: 7px;
+    }
+    .socials {
+        margin-right: 10px;
+    }
+    .socials img {
+        width: 13px;
+    }
+    .read_more {
+        padding: 5px 25px;
+        margin-top: 16px;
+    }
 }

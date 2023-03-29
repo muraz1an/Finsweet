@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 :root {
+    --white-gr: rgba(255, 255, 255, 0.534);
     --light:#FBF6EA;
     --main-bg-lighter: #2d3047;
     --main-bg-color: #232536;
@@ -132,12 +133,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     .container {
         width: 800px;
     }
+    .container_mid {
+        width: 800px;
+    }
+    .container_sm {
+        width: 800px;
+    }
 }
 @media screen and (max-width: 840px) {
     .container {
         width: 600px;
     }
     .container_sm {
+        width: 600px;
+    }
+    .container_mid {
         width: 600px;
     }
 }
@@ -148,12 +158,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     .container_sm {
         width: 400px;
     }
+    .container_mid {
+        width: 400px;
+    }
 }
 @media screen and (max-width: 440px) {
     .container {
         width: 97%;
     }
     .container_sm {
-        width: 100%;
+        width: 97%;
+    }
+    .container_mid {
+        width: 97%;
+    }
+    .read_more {
+        padding: 8px 19px;
+        font-size: 12px;
     }
 }

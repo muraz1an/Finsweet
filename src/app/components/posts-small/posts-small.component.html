@@ -1,5 +1,5 @@
 <div>
-    <div (click)="changeId(item.id)" routerLink="/blog-post"  class="post pointer" *ngFor=" let item of elements">
+    <div [routerLink]="['/blog-post',item.id]"  class="post pointer" *ngFor=" let item of elements">
         <h4 class="autor">By <span>{{item.autor}}</span>{{item.autordate}}</h4>
         <h3>{{item.title}}</h3>
     </div>

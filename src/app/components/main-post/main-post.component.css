@@ -67,13 +67,26 @@
 @media screen and (max-width: 440px) {
     .f-post-descrip h2 {
         width: 100%;
-        font-size: 28px;
+        font-size: 24px;
     }
     .f_p_d{
         width:100%;
+        font-size: 12px;
+        line-height: 19px;
     }
     .blog_header {
+        padding-top: 20px;
         text-align: center;
     }
-    
+    .f-post-descrip h4{
+        font-size: 14px;
+        line-height: 10px;
+    }
+    .f-post-descrip {
+        margin-top: 16px;
+    }
+    .autor {
+        font-size: 11px;
+        text-align: center;
+    }
 }

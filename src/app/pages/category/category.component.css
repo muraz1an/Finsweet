@@ -1,7 +1,8 @@
 .header_bl {
     background-color: var(--bg-light);
 }
-.header_bl h1{
+
+.header_bl h1 {
     font-family: 'Sen';
     font-style: normal;
     font-weight: 700;
@@ -9,7 +10,8 @@
     line-height: 64px;
     padding-top: 80px;
 }
-.header_bl p{
+
+.header_bl p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -19,7 +21,8 @@
     width: 515px;
     margin: 16px auto 32px;
 }
-.header_bl h5{
+
+.header_bl h5 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -28,42 +31,177 @@
     text-transform: uppercase;
     padding-bottom: 80px;
 }
+
 .categoryPosts {
     margin-top: 128px;
 }
-.tags a{
+
+.tags a {
     font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 32px;
-color: #363636ca;
-border: 2px solid var(--descriptions);
-border-radius: 28px;
-margin: 8px;
-transition-duration: 400ms;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    color: #363636ca;
+    border: 2px solid var(--descriptions);
+    border-radius: 28px;
+    margin: 8px;
+    transition-duration: 400ms;
 }
+
 .tags a:hover {
     background-color: var(--yel-bg);
     border-color: var(--transparent);
 }
+
 .mid_pad {
     padding: 8px 28px;
 }
+
 .sm_pad {
     padding: 8px 18.5px;
 }
+
 .big_pad {
     padding: 8px 43px;
 }
+
 .tags_title {
     font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;
-margin: 70px 0 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 70px 0 32px;
 }
+
+@media screen and (max-width:1340px) {
+    .tags {
+        justify-content: space-around;
+    }
+
+    .mid_pad {
+        padding: 7px 23px;
+    }
+
+    .big_pad {
+        padding: 7px 35px;
+    }
+}
+
 @media screen and (max-width:1040px) {
-    
+
+    .mid_pad,
+    .sm_pad,
+    .big_pad {
+        padding: 7px 35px;
+        width: 155px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .categoryPosts {
+        flex-direction: column;
+    }
+
+    .tags_categs {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .tags_title {
+        font-size: 29px;
+        line-height: 25px;
+        margin: 0 0 32px;
+    }
+
+    .mid_pad {
+        padding: 8px 28px;
+    }
+
+    .sm_pad {
+        padding: 8px 18.5px;
+    }
+
+    .big_pad {
+        padding: 8px 43px;
+    }
+
+    .mid_pad,
+    .sm_pad,
+    .big_pad {
+        width: auto
+    }
+
+    .tags {
+        justify-content: normal
+    }
+}
+
+@media screen and (max-width:640px) {
+    .header_bl h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .header_bl p {
+        font-size: 13px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .header_bl h5 {
+        font-size: 13px;
+    }
+
+    .tags_categs {
+        flex-direction: column;
+    }
+
+    .tags_title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .header_bl p {
+        font-size: 13px;
+        line-height: 19px;
+        width: 80%;
+        margin: 5px auto 15px;
+    }
+
+    .header_bl h1 {
+        font-size: 32px;
+        line-height: 39px;
+        padding-top: 25px;
+    }
+
+    .header_bl h5 {
+        font-size: 11px;
+        line-height: 15px;
+        padding-bottom: 40px;
+    }
+
+    .categoryPosts {
+        margin-top: 35px;
+    }
+
+    .header_bl p {
+        font-size: 12px;
+    }
+
+    .tags_title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .tags a {
+        line-height: 13px;
+        font-size: 10px;
+    }
+    .tags {
+        margin-bottom: 40px;
+        justify-content: center;
+    }
 }

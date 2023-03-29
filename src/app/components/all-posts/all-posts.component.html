@@ -1,4 +1,4 @@
-<div class="all_posts pointer d-flex align-c pointer" *ngFor="let item of posts">
+<div [routerLink]="['/blog-post',item.id]" class="all_posts pointer d-flex align-c pointer" *ngFor="let item of posts">
     <div class="posts_img">
         <img src="{{item.img}}" alt="img">
     </div>

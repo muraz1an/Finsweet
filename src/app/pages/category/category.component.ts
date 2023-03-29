@@ -19,7 +19,7 @@ export class CategoryComponent implements OnInit{
     this.setCategories();
   }
   setCategPost(){
-    this.request.getData<AllPosts[]>(environment.categPost.get).subscribe((item) => {
+    this.request.getData<AllPosts[]>(`${environment.postsall.get}?_limit=4`).subscribe((item) => {
       this.categPosts = item
     })
   }

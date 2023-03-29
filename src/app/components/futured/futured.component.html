@@ -7,6 +7,6 @@
          <p>
            {{item.descrip}}
          </p>
-        <button routerLink="/blog-post" class="read_more pointer">Read More ></button>
+        <button [routerLink]="['/blog-post',item.id]" class="read_more pointer">Read More ></button>
     </div>
 </div>

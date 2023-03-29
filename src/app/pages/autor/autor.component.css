@@ -5,6 +5,9 @@
     font-size: 48px;
     line-height: 64px;
 }
+.autor_blocks div > img {
+    width: 228px;
+}
 .header_descrip p {
     font-family: 'Inter';
 font-style: normal;
@@ -45,4 +48,63 @@ font-weight: 700;
 font-size: 48px;
 line-height: 64px;
 margin: 128px 0 64px;
+}
+@media screen and (max-width:1040px) {
+    .header_descrip {
+        width: 480px;
+    }
+    .header_descrip h1 {
+        font-size: 37px;
+    line-height: 45px;
+    }
+    .header_descrip p {
+        margin-top: 20px;
+    }
+    app-categ-posts {
+        display: flex;
+        justify-content: center;
+    }
+    .myPostsTitle {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 840px) {
+    .autor_blocks {
+        flex-direction: column;
+        align-items: center;     
+        padding-top: 64px;
+    }
+    .header_descrip {
+        width: 100%;
+        text-align: center;
+    }
+    .header_descrip h1 {
+        margin-top: 20px;
+    }
+    .decorations div{
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:440px) {
+    .autor_blocks {
+        padding-top: 34px;
+    }
+    .header_descrip h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .header_descrip p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .autor_blocks > div > img {
+        width: 140px;
+    
+    }
+    .myPostsTitle {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 34px 0 44px;
+    }
 }

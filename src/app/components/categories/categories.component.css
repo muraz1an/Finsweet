@@ -46,3 +46,28 @@ text-align: left;
         justify-content: space-around;
     }
 }
+@media screen and (max-width:440px) {
+    .categ {
+        padding: 20px;
+        width: 150px;
+        height: 114px;
+        margin-bottom: 4px;
+    }
+    .categ_logo {
+        width: 30px;
+        padding: 3px;
+        height: 30px;
+    }
+    .categ h4{
+        margin: 4px 0;
+        font-size: 16px;
+    font-weight: 700;
+    line-height: 13px;
+    }
+    .categ p {
+        font-size: 7px;
+        letter-spacing: 0.5px;
+        line-height: 9px;
+    }
+    
+}

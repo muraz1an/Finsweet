@@ -5,6 +5,11 @@
     transition-duration: 700ms;
     margin-bottom: 32px;
 }
+.autor > img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
 .social_bl {
     line-height: 10px;
 }
@@ -37,5 +42,32 @@ margin-bottom: 20px;
 @media screen and (max-width:1040px) {
     .autors {
         justify-content: space-around;
+    }
+}
+@media screen and (max-width:440px) {
+    .autor {
+    padding: 15px;
+    width: 141px;
+    margin-bottom: 18px;
+    }
+    .autor > img {
+        width: 80px;
+    }
+    .autor h2 {
+        margin-top: 0;
+        font-size: 13px;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+    .autor p {
+        font-size: 8px;
+        line-height: 2px;
+        margin-bottom: 15px;
+    }
+    .autor a {
+        margin-right: 4px;
+    }
+    .autor a img {
+        width: 12px;
     }
 }

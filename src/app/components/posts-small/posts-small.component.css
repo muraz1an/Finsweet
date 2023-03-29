@@ -22,3 +22,19 @@ width: 350px;
     }
     
 }
+@media screen and (max-width:440px) {
+    .autor {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .post h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .post {
+        height: 130px;
+        padding: 20px;
+    }
+
+}

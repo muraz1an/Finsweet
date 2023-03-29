@@ -16,7 +16,7 @@ const routes: Route[] = [
     loadChildren: () => import('./pages/blog/blog.module').then(m => m.BlogModule)
   },
   {
-    path: 'blog-post',
+    path: 'blog-post/:id',
     loadChildren: () => import('./pages/blog-post/blog-post.module').then(m => m.BlogPostModule)
   },
   {
@@ -28,7 +28,7 @@ const routes: Route[] = [
     loadChildren: () => import('./pages/category/category.module').then(m => m.CategoryModule)
   },
   {
-    path:'autor',
+    path:'autor/:autor',
     loadChildren: () => import('./pages/autor/autor.module').then(m => m.AutorModule)
   },
   {

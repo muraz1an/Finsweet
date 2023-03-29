@@ -69,3 +69,26 @@ margin-top: 16px;
         margin-bottom: 70px;
     }
 }
+@media screen and (max-width:440px) {
+    .f_post h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .wh_new_bl img {
+        height: 150px;
+    }
+    .autor {
+        font-size: 10px;
+    }
+    .wh_new_bl h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .wh_new_bl p {
+        font-size: 10px;
+      line-height: 16px;
+    }
+    .wh_new_bl {
+        margin-bottom: 25px;
+    }
+}   

@@ -30,75 +30,49 @@
       "id": 1,
       "src": "assets/face.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://ru-ru.facebook.com/"
     },
     {
       "id": 2,
       "src": "assets/Vector.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://twitter.com/"
     },
     {
       "id": 3,
       "src": "assets/Group.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://www.instagram.com/"
     },
     {
       "id": 4,
       "src": "assets/Negative.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://www.linkedin.com/"
     },
     {
       "id": 5,
       "src": "assets/faceinh.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://ru-ru.facebook.com/"
     },
     {
       "id": 6,
       "src": "assets/twinh.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://twitter.com/"
     },
     {
       "id": 7,
       "src": "assets/insinh.png",
       "alt": "img",
-      "href": "#"
+      "href": "https://www.instagram.com/"
     },
     {
       "id": 8,
       "src": "assets/ininh.png",
       "alt": "img",
-      "href": "#"
-    }
-  ],
-  "categPost": [
-    {
-      "img": "assets/hieeee.png",
-      "type": "Business",
-      "title": "Top 6 free website mockup tools 2022",
-      "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
-    },
-    {
-      "img": "assets/hieeee.png",
-      "type": "Business",
-      "title": "Step-by-step guide to choosing great font pairs",
-      "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
-    },
-    {
-      "img": "assets/hieeee.png",
-      "type": "Business",
-      "title": "Ten free foogle fonts that you should use",
-      "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
-    },
-    {
-      "img": "assets/hieeee.png",
-      "type": "Business",
-      "title": "What did I learn from doing 50+ design sprints?",
-      "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec."
+      "href": "https://www.linkedin.com/"
     }
   ],
   "readBlock": [
@@ -112,7 +86,7 @@
     {
       "img": "assets/photo-of-people-doing-handshakes-3183197.png",
       "autor": "John Doe",
-      "date": "   l   Aug 23, 2021 ",
+      "date": "  l   Aug 23, 2021 ",
       "title": "A UX Case Study Creating a Studious Environment for Students: ",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
@@ -128,7 +102,7 @@
     {
       "img": "assets/two-women-in-front-of-dry-erase-board-1181533.png",
       "title": "Design tips for designers that cover everything you need",
-      "autor": "John Deo",
+      "autor": "Floyd Miles",
       "autordate": "   l   Aug 23, 2021 ",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       "id": 1,
@@ -139,7 +113,7 @@
       "img": "assets/photo-of-people-doing-handshakes-3183197.png",
       "type": "BUSINESS",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Floyd Miles",
       "title": "How to build rapport with your web design clients",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
@@ -148,7 +122,7 @@
       "img": "assets/photo-of-woman-looking-at-man-3183173.png",
       "type": "Startup",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Dianne Russell",
       "title": "Logo design trends to avoid in 2022",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
@@ -157,14 +131,14 @@
       "img": "assets/photo-of-people-walking-on-hallway-3182811.png",
       "type": "TECHNOLOGY",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Dianne Russell",
       "title": "8 Figma design systems you can download for free today",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     {
       "img": "assets/two-women-in-front-of-dry-erase-board-1181533.png",
       "title": "Font sizes in UI design: The complete guide to follow",
-      "autor": "John Deo",
+      "autor": "Jenny Wilson",
       "autordate": "   l   Aug 23, 2021 ",
       "descrip": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
       "id": 5,
@@ -175,7 +149,7 @@
       "img": "assets/white-concrete-building-1838640.png",
       "type": "ECONOMY",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Leslie Alexander",
       "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
       "descrip": " Duis aute irure dolor in reprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident."
     },
@@ -184,29 +158,30 @@
       "img": "assets/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.png",
       "type": "ECONOMY",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Guy Hawkins",
       "title": "Step-by-step guide to choosing great font pairs",
       "descrip": " Duis aute irure dolor in reprehenderit involuptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident."
-    }
-  ],
-  "myPost": [
+    },
     {
+      "id": 8,
       "img": "assets/stained-glass-high-rise-building-1106476.png",
       "type": "BUSINESS",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Andrew Jonhson",
       "title": "Font sizes in UI design: The complete guide to follow",
       "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
+      "id": 9,
       "img": "assets/peop.png",
       "type": "BUSINESS",
       "autordate": "   l   Aug 23, 2021 ",
-      "autor": "John Deo",
+      "autor": "Andrew Jonhson",
       "title": "How to build rapport with your web design clients",
       "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ],
+  "myPost": [],
   "allAutors": [
     {
       "name": "Floyd Miles",
@@ -255,6 +230,12 @@
       "proffesion": "Content Writer @Company",
       "img": "assets/cheerful-young-ethnic-male-millennial-standing-near-stone-wall-and-smiling-6147118.png",
       "id": 8
+    },
+    {
+      "name": "Andrew Jonhson",
+      "proffesion": "Content Writer @Company",
+      "img": "assets/andrew.png",
+      "id": 9
     }
   ]
 }

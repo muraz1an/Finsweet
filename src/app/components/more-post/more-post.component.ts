@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { AllPosts } from 'src/app/models/all_posts';
-import { PostServiceService } from 'src/app/service/postServise/post-service.service';
 import { RequestService } from 'src/app/service/request.service';
 import { environment } from 'src/environments/environments';
 
@@ -9,23 +9,22 @@ import { environment } from 'src/environments/environments';
   templateUrl: './more-post.component.html',
   styleUrls: ['./more-post.component.css']
 })
-export class MorePostComponent implements OnInit{
+export class MorePostComponent implements OnInit {
   post: AllPosts[] = []
-  id:number= this.itemid.id;
-  constructor( public request:RequestService,
-              public itemid: PostServiceService
-    ){}
+  id: number = this.activeRoute.snapshot.params['id'];
+  constructor(public request: RequestService,
+    public activeRoute: ActivatedRoute
+  ) { }
   ngOnInit(): void {
     this.setPost()
   }
-  setPost(){
-    this.request.getData<AllPosts>(`${environment.postsall.get}/${this.id}`).subscribe((item)=>{
-      
-      if(item != null && item != undefined){
-        this.post.push(item) 
+  setPost() {
+    this.request.getData<AllPosts>(`${environment.postsall.get}/${this.id}`).subscribe((item: AllPosts) => {
+
+      if (item != null && item != undefined) {
+        this.post.push(item)
       }
 
-      
     })
   }
 }

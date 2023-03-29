@@ -2,12 +2,12 @@
     <app-header></app-header>
 </header>
 <header class="autor_header">
-    <div class="container_mid autor_blocks d-flex s-betw">
+    <div class="container_mid autor_blocks d-flex s-betw" *ngFor="let item of autor">
         <div>
-            <img src="assets/andrew.png" alt="autor">
+            <img src="{{item.img}}" alt="autor">
         </div>
         <div class="header_descrip">
-            <h1>Hey there, I’m Andrew Jonhson and welcome to my Blog</h1>
+            <h1>Hey there, I’m <span>{{item.name}}</span> and welcome to my Blog</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -25,6 +25,7 @@
 <section>
     <div class="container_mid">
         <h2 class="myPostsTitle">My Posts</h2>
+        
         <app-categ-posts [categs]="post"></app-categ-posts>
     </div>
 </section>

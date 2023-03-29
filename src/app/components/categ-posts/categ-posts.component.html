@@ -1,4 +1,5 @@
-<div class="all_posts d-flex align-c" *ngFor="let item of categs">
+<div class="main"> 
+    <div class="all_posts pointer d-flex align-c" [routerLink]="['/blog-post',item.id]" *ngFor="let item of categs">
     <div>
         <img src="{{item.img}}" alt="img">
     </div>
@@ -7,6 +8,6 @@
         <h2>{{item.title}}</h2>
         <p>{{item.descrip}}</p>
     </div>
+    </div>
 </div>
-
 

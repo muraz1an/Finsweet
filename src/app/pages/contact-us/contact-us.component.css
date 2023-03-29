@@ -1,79 +1,156 @@
-.contact_header h4{
+.contact_header h4 {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 16px;
-padding-top: 128px;
-line-height: 20px;
-text-transform: uppercase;
-letter-spacing: 3px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    padding-top: 128px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
-.contact_header h1{
+
+.contact_header h1 {
     margin: 12px 0 24px;
     font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
 }
-.contact_header p{
+
+.contact_header p {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: var(--descriptions);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--descriptions);
 }
+
 .workShed {
-    margin:64px 0 16px;
+    margin: 64px 0 16px;
     padding: 48px 64px;
     background-color: var(--design-blue);
 }
-.wHours h6{
+
+.wHours h6 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: var(--descriptions);
-    border-bottom: 1px solid var(--descriptions);
+    color: var(--white-gr);
+    border-bottom: 1px solid var(--white-gr);
     padding-bottom: 16px;
     margin-bottom: 16px;
 }
-.wHours h5{
+
+.wHours h5 {
     font-family: 'Sen';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 32px;
-color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
 }
+
 .wHours p {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: var(--descriptions);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--white-gr);
 }
+
 .wHours {
     width: 294px;
 }
-.form_bl input ,select,.masseges {
+
+.form_bl input,
+select,
+.masseges {
     margin: 16px 0;
     border: 1px solid var(--descriptions);
     border-radius: 2px;
     padding: 24px;
     width: 100%;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
+
 .form_bl .read_more {
     width: 100%;
 }
+
 .form_bl {
     margin-bottom: 144px;
+}
+
+@media screen and (max-width:440px) {
+    .contact_header h4 {
+        font-size: 11px;
+        padding-top: 30px;
+        line-height: 13px;
+    }
+
+    .contact_header h1 {
+        margin: 20px 0 18px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .contact_header p {
+        font-size: 9px;
+        line-height: 18px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .workShed {
+        flex-direction: column;
+        padding: 48px 26px;
+    }
+
+    .wHours {
+        width: 100%;
+    }
+
+    .wHours h6 {
+        font-size: 11px;
+        line-height: 9px;
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+    }
+    .wHours h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .wHours p {
+        font-size: 11px;
+        line-height: 24px;
+    }
+    .form_bl input {
+        width: 80%;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    form {
+        text-align: center;
+    }
+    select, .masseges {
+        padding: 13px;
+        width: 80%;
+        font-size: 12px;
+    }
+    .form_bl .read_more {
+        width: 50%;
+    }
+    .form_bl {
+        margin-bottom: 80px;
+    }
 }
